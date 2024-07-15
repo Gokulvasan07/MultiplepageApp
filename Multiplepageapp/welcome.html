@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        background-image: url('background.jpg');
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat; 
+        height: 100vh;
+        justify-content: center;
+        /* align-items: center; */
+        text-align: center;
+        color: white;
+        /* padding: 20px; */
+        /* box-sizing: border-box; */
+    }
+    .animated-text {
+            font-size: 2em;
+            animation: fadeInUp 2s ease-in-out;
+        }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+    }
+    </style>
+</head>
+<body>
+    <div class="animated-text" style="align-items: center;" >
+        Welcome to my application
+        <a href="home.html" > Click To Start</a>
+</div>
+
+</body>
+</html>
